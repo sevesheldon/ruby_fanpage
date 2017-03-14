@@ -1,0 +1,37 @@
+<h1 class="text-center">Fill out the form to purchase Blink 182 tickets!</h1>
+<div class="container">
+  <div class="row" id="tickets-row">
+    <div class="col-md-6">
+      <img src="/img/Blink_live2.jpg" alt="A really cool live pic of blink">
+    </div>
+    <div class="col-md-6">
+      <form action="/receipt">
+        <div class="form-group">
+          <label for="number-of">Number of tickets:</label>
+          <input id="number-of" name="number-of" class="form-control" type="number">
+        </div>
+        <div>
+        <div>
+        <div class="form-group">
+          <label for="show">Select which show:</label>
+          <select id="show" name="show" class="form-control">
+            <option data-show="Crystal Ballroom">Crystal Ballroom</option>
+            <option data-show="Moda Center">Moda Center</option>
+            <option data-show="SleepTrain Amphitheatre">SleepTrain Amphitheatre</option>
+            <option data-show="Blackwater">Blackwater</option>
+            <option data-show="Laughing Horse Books">Laughing Horse Books</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" name="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input id="email" name="email" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-panel">Get your tix!</button>
+      </form>
+    </div>
+  </div>
+</div>

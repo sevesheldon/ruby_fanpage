@@ -1,0 +1,34 @@
+body {
+  background-color: pink;
+}
+
+/***** HOME *****/
+
+.home-pix img {
+    margin: 0 auto;
+    display: block;
+}
+
+p#home-intro {
+  width: 60%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+/***** SHOWS *****/
+
+img#shows-pic {
+  margin: 50px 0;
+}
+
+/***** BIO *****/
+
+img#bio-pic {
+  margin: 50px 0;
+}
+
+/***** TICKETS *****/
+
+div#tickets-row {
+  margin: 50px 0;
+}
